@@ -3,9 +3,9 @@ package studentlist;
 import java.util.Scanner;
 
 /**
- * This class +++Insert Description Here+++
+ * This class is our first example of class review
  *
- * @author Paul Bonenfant
+ * @author Nidhi
  */
 public class StudentList {
 
