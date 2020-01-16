@@ -51,13 +51,19 @@ public class StudentList {
         for(int i = 0; i < 3; i++) {
             System.out.println("Enter Student Name");    
             String name = input.nextLine();
+             System.out.println("Enter Student Adress");    
+            String address = input.nextLine();
             Student student = new Student(name);
-            students[i] = student;
+
+            student.setAddress(address);
+            
+                        students[i] = student;
         }
         
         System.out.println("Let's print them back");
         
         for(Student student: students) {
+            String format = "%s,address: %s\n";
             System.out.println(student.getName());
         }
         
